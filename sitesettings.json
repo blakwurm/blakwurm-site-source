@@ -1,0 +1,44 @@
+{
+  "name": "Testing Site",
+  "tagline": "Where magic happenings come true!",
+  "title": "Teeeeest",
+  "titledelimiter": " - ",
+  "output": "docs",
+  "medialocation": "media",
+  "templatelocation": "template",
+  "pageorder": ["Home", "Blak", "Wurm", "Foobar"],
+  "hosts": "",
+  "pages": {
+    "Blak": {
+      "type": "simple",
+      "source": "blakprofile.md",
+      "title": "Blak",
+      "subtitle": "Dark as Night",
+      "url": "blak"
+    },
+    "Wurm": {
+      "type": "simple",
+      "source": "wurmprofile.md",
+      "title": "Wurm",
+      "subtitle": "Slithering between the lines",
+      "url": "wurm"
+    },
+    "Home": {
+      "type": "simple",
+      "source": "siteintro.md",
+      "title": "Home",
+      "subtitle": "Who We Are And What You Do",
+      "url": "/"
+    },
+    "Foobar": {
+      "type": "blog",
+      "title": "Foo's blog about bar",
+      "author": "Tipsy Widdlebiscuits",
+      "subtitle": "Because Bar is bar-none!",
+      "posts": "foobar",
+      "url": "foo_writes",
+      "postslocation": "blog/foo",
+      "hidetag": "politics"
+    }
+  }
+}
