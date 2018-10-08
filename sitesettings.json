@@ -1,9 +1,9 @@
 {
-  "name": "Testing Site",
-  "tagline": "Where magic happenings come true!",
-  "title": "Teeeeest",
+  "name": "BlakWurm",
+  "tagline": "We Breath Entertainment",
+  "title": "BlakWurm",
   "titledelimiter": " - ",
-  "output": "docs",
+  "output": "../blakwurm.github.com",
   "medialocation": "media",
   "templatelocation": "template",
   "pageorder": ["Blak", "Wurm", "Foobar"],
@@ -27,8 +27,8 @@
     "Home": {
       "type": "simple",
       "source": "siteintro.md",
-      "title": "Home",
-      "subtitle": "Who We Are And What You Do",
+      "title": "Who We Are",
+      "subtitle": "And Why We Matter To You",
       "url": ""
     },
     "Foobar": {
