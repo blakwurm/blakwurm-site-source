@@ -1,5 +1,6 @@
-# Testing this out, man
+We love entertainment.
 
-This is a testing site. What we do here? Test things out. Why we do here? Because yes.
+We create tools to help people enjoy their entertainment.
 
-Enjoy the ride, mate!
+We believe that by doing this, we are helping create a better world.
+
