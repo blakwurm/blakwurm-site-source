@@ -14,14 +14,14 @@
       "type": "simple",
       "source": "blakprofile.md",
       "title": "Blak",
-      "subtitle": "Dark as Night",
+      "subtitle": "The Soul of Creativity",
       "url": "blak"
     },
     "Wurm": {
       "type": "simple",
       "source": "wurmprofile.md",
       "title": "Wurm",
-      "subtitle": "Slithering between the lines",
+      "subtitle": "Slithering Amongst the Bits",
       "url": "wurm"
     },
     "Home": {
@@ -33,12 +33,11 @@
     },
     "Foobar": {
       "type": "blog",
-      "title": "Foo's blog about bar",
-      "author": "Tipsy Widdlebiscuits",
-      "subtitle": "Because Bar is bar-none!",
-      "posts": "foobar",
-      "url": "foo_writes",
-      "postslocation": "blog/foo",
+      "title": "WurmBlog",
+      "author": "Alex Chythlook",
+      "subtitle": "Software and Software Accessories",
+      "url": "wurmblog",
+      "postslocation": "blog/wurmblog",
       "hidetag": "politics"
     }
   }
