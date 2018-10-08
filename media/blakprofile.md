@@ -1,3 +1,6 @@
-# Blak
+## Gavyn
 
-<img href="/media/blak.png" class="profilepic"/> Dude knows what's up! This describes the dude in all his glory!
+Freelance writer, core "fluff" guy and QA manager with BlakWurm Entertainment
+
+You can find his blog at http://www.ivoryhawk.com/
+

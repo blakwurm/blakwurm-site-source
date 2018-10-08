@@ -1,10 +1,5 @@
-Alex is a neat dude! At least I think so. But I'm him, so I'm a liiiiitle bit biased.
+# Alex
 
-Here, have some raw HTML
+Code Monkey. IT Wizard. Data Sorcerer.
 
-<table>
-  <tr>
-    <td>fooooooo</td>
-    <td>wump!</td>
-  </tr>
-</table>
+Blog at [WurmBlog](/wurmblog)
