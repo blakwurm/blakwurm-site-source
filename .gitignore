@@ -1,9 +1,10 @@
-blaksite.exe
-blaksite
-mac-blaksite
-linux-blaksite
+wurmforge.exe
+wurmforge
+wurmforge-mac
+wurmforge-linux
 docs
 build
 dist
 bin
 sample_project.zip
+run.bat

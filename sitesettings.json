@@ -6,7 +6,8 @@
   "output": "docs",
   "medialocation": "media",
   "templatelocation": "template",
-  "pageorder": ["Home", "Blak", "Wurm", "Foobar"],
+  "pageorder": ["Blak", "Wurm", "Foobar"],
+  "address": "https://blakwurm.com",
   "hosts": "",
   "pages": {
     "Blak": {
@@ -28,7 +29,7 @@
       "source": "siteintro.md",
       "title": "Home",
       "subtitle": "Who We Are And What You Do",
-      "url": "/"
+      "url": ""
     },
     "Foobar": {
       "type": "blog",
