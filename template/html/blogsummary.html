@@ -9,27 +9,23 @@
 
   <link rel="stylesheet" href="/css/main.css" />
 
+  <script src="/js/main.js"></script>
 </head>
 
-<body>
-	<div id="header">
-		<a class="rootlink" href="/">
-			<h1 class="sitetitle">Site Title</h1>
-			<p class="sitetagline">Site Tagline, Because Why Not</p>
-		</a>
-		<div class="navbar">
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Projects</a></li>
-	
-			</ul>
-		</div>
+<body class="default">
+	<h1 class="sitetitle"><a class="rootlink" href="/">Site Title</a></h1>
+	<p class="sitetagline">Site Tagline, Because Why Not</p>
+	<div class="navbar">
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Projects</a></li>
 
+		</ul>
 	</div>
 	<div id="pagemain">
 		<div class="taglist">
-			<h3>Tags</h3>
+			<p>Tags</p>
 			<ul>
 				<li><a href="/path/to/tags">Tag a</a></li>
 				<li><a href="/path/to/tags">Tag b</a></li>
@@ -37,31 +33,59 @@
 		</div>
 		<div class="pagecontent blogsummary">
 			<div class="postpreview">
-				<a class="continue" href="/path/to/post">
-					<h3 class="posttitle">Straight-up post title</h3>
-				</a>
+				<h3 class="posttitle"><a class="continue" href="/path/to/post">Straight-up post title</a></h3>
 				<p class="byline">Byline McLastnamerson</p>
 				<p class="date">2018-09-23</p>
-				<div class="preview-window">
-					<p class="preview">
-					Lorum Ipsum? Or not to Lorum Ipsum?
-					</p>
-					<a class="continue continuebutton" href="/path/to/post">
-						Continue Reading
-					</a>
-				</div>
+				<p class="preview">Lorum Ipsum? Or not to Lorum Ipsum?</p>
+				<a class="continue continuebutton" href="/path/to/post">
+					Continue Reading
+				</a>
 				<ul class="tags">
-					<li>Greatness!</li>
-					<li>Humanity</li>
+					<li><a>Greatness!</a></li>
+					<li><a>Humanity</a></li>
 				</ul>
-
+			</div>
+			<div class="postpreview">
+				<h3 class="posttitle"><a class="continue" href="/path/to/post">Straight-up post title</a></h3>
+				<p class="byline">Byline McLastnamerson</p>
+				<p class="date">2018-09-23</p>
+				<p class="preview">Lorum Ipsum? Or not to Lorum Ipsum?</p>
+				<a class="continue continuebutton" href="/path/to/post">
+					Continue Reading
+				</a>
+				<ul class="tags">
+					<li><a>Greatness!</a></li>
+					<li><a>Humanity</a></li>
+				</ul>
+			</div>
+			<div class="postpreview">
+				<h3 class="posttitle"><a class="continue" href="/path/to/post">Straight-up post title</a></h3>
+				<p class="byline">Byline McLastnamerson</p>
+				<p class="date">2018-09-23</p>
+				<p class="preview">Lorum Ipsum? Or not to Lorum Ipsum?</p>
+				<a class="continue continuebutton" href="/path/to/post">
+					Continue Reading
+				</a>
+				<ul class="tags">
+					<li><a>Greatness!</a></li>
+					<li><a>Humanity</a></li>
+				</ul>
 			</div>
 			
 		</div>
 	</div>
-	<div id="footer">
-		<p class="copyright">(C) 20X6 Blakwurm Entertainment</p>
-	</div>
-  <script type="module" src="/js/main.js"></script>
+	<p class="copyright">(C) 20X6 Blakwurm Entertainment</p>
+	<ul class="themepicker">
+		<li><a onclick="changeTheme('default')">SNES Default</a></li>
+		<li><a onclick="changeTheme('zelda')">Zelda</a></li>
+		<li><a onclick="changeTheme('pokemon')">Pokemon</a></li>
+		<li><a onclick="changeTheme('green')">IRL</a></li>
+		<li><a onclick="changeTheme('pocket')">GB Pocket</a></li>
+		<li><a onclick="changeTheme('megaman')">Megaman V</a></li>
+		<li><a onclick="changeTheme('metroid')">Metroid 2</a></li>
+		<li><a onclick="changeTheme('kirby')">Kirby</a></li>
+		<li><a onclick="changeTheme('icarus')">Icarus</a></li>
+		<li><a onclick="changeTheme('mario')">Super Mario Land 2</a></li>
+	</ul>
 </body>
 </html>
