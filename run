@@ -1,2 +1,2 @@
 #!/bin/bash
-~/dev/blaksite/blaksite/blaksite.py
+python3.7 ~/dev/wurmforge/wurmforge/
