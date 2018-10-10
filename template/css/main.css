@@ -3,267 +3,339 @@
 @import url('https://fontlibrary.org/face/mr-pixel');
 
 * {
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	vertical-align: center;
-	font-family: 'VTFMisterPixelRegular', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: center;
+    font-family: 'VTFMisterPixelRegular', monospace;
 }
 
 html {
-	padding: 0;
-	margin: 0;
-	--color-dark: #331e50;
-	--color-med-hi: #d68e49;
-	--color-med-low: #a63725;
-	--color-light: #f7e7c6;
+    padding: 0;
+    margin: 0;
+    --color-dark: #331e50;
+    --color-med-hi: #d68e49;
+    --color-med-low: #a63725;
+    --color-light: #f7e7c6;
+    
+    --margin-title: 0px;
 }
 
 body {
-	background-color: var(--color-light);
-	color: var(--color-med-low);
-	padding: 0;
-	margin: 0;
+    background-color: var(--color-light);
+    color: var(--color-med-low);
+    padding: 0;
+    margin: 0;
 }
 
-body.default {
-	--color-dark: #331e50;
-	--color-med-hi: #d68e49;
-	--color-med-low: #a63725;
-	--color-light: #f7e7c6;
+.default {
+    --color-dark: #331e50;
+    --color-med-hi: #d68e49;
+    --color-med-low: #a63725;
+    --color-light: #f7e7c6;
 }
 
-body.zelda {
-	--color-dark: #5a3921;
-	--color-med-hi: #7bc67b;
-	--color-med-low: #6b8c42;
-	--color-light: #ffffb5;
+.zelda {
+    --color-dark: #5a3921;
+    --color-med-hi: #7bc67b;
+    --color-med-low: #6b8c42;
+    --color-light: #ffffb5;
 }
 
-body.green {
-	--color-dark: #2e463d;
-	--color-med-hi: #577b46;
-	--color-med-low: #385d49;
-	--color-light: #7e8416;
+.green {
+    --color-dark: #2e463d;
+    --color-med-hi: #577b46;
+    --color-med-low: #385d49;
+    --color-light: #7e8416;
 }
 
-body.pokemon {
-	--color-dark: #181010;
-	--color-med-hi: #f7b58c;
-	--color-med-low: #84739c;
-	--color-light: #ffefff;
+.pokemon {
+    --color-dark: #181010;
+    --color-med-hi: #f7b58c;
+    --color-med-low: #84739c;
+    --color-light: #ffefff;
 }
 
-body.pocket {
-	--color-dark: #2b2b26;
-	--color-med-hi: #a89f94;
-	--color-med-low: #706b66;
-	--color-light: #e0dbcd;
+.pocket {
+    --color-dark: #2b2b26;
+    --color-med-hi: #a89f94;
+    --color-med-low: #706b66;
+    --color-light: #e0dbcd;
 }
 
-body.megaman {
-	--color-dark: #102533;
-	--color-med-hi: #6f9edf;
-	--color-med-low: #42678e;
-	--color-light: #cecece;
+.megaman {
+    --color-dark: #102533;
+    --color-med-hi: #6f9edf;
+    --color-med-low: #42678e;
+    --color-light: #cecece;
 }
 
-body.metroid {
-	--color-dark: #2c1700;
-	--color-med-low: #b62558;
-	--color-med-hi: #047e60;
-	--color-light: #aedf1e;
+.metroid {
+    --color-dark: #2c1700;
+    --color-med-low: #b62558;
+    --color-med-hi: #047e60;
+    --color-light: #aedf1e;
 }
 
-body.kirby {
-	--color-dark: #2c2c96;
-	--color-med-hi: #e78686;
-	--color-med-low: #7733e7;
-	--color-light: #f7bef7;
+.kirby {
+    --color-dark: #2c2c96;
+    --color-med-hi: #e78686;
+    --color-med-low: #7733e7;
+    --color-light: #f7bef7;
 }
 
-body.icarus {
-	--color-dark: #1e0000;
-	--color-med-hi: #f78e50;
-	--color-med-low: #9e0000;
-	--color-light: #cef7f7;
+.icarus {
+    --color-dark: #1e0000;
+    --color-med-hi: #f78e50;
+    --color-med-low: #9e0000;
+    --color-light: #cef7f7;
 }
 
-body.mario {
-	--color-med-low: #000000;
-	--color-med-hi: #11c600;
-	--color-dark: #dfa677;
-	--color-light: #eff7b6;
+.mario {
+    --color-med-low: #000000;
+    --color-med-hi: #11c600;
+    --color-dark: #dfa677;
+    --color-light: #eff7b6;
 }
 
 a {
-	text-decoration: none;
-	color: var(--color-low);
+    text-decoration: none;
+    color: var(--color-low);
 }
 
 a::before {
-	content: "< ";
+    content: "< ";
 }
 
 a::after {
-	content: " />";
+    content: " />";
 }
 
 .sitetitle, .sitetagline, .pagetitle, .pagesubtitle, 
 .postdate, .postpreview .posttitle, .postpreview .byline, 
 .postpreview .date  {
-	background-color: var(--color-med-hi);
-	color: var(--color-light);
-	border: 3px double var(--color-med-low);
-	text-shadow: 2px 2px 0px var(--color-med-low)!important;
-	letter-spacing: 1px;
+    background-color: var(--color-med-hi);
+    color: var(--color-light);
+    border: 3px double var(--color-med-low);
+    text-shadow: 2px 2px 0px var(--color-med-low)!important;
+    letter-spacing: 1px;
+    margin: var(--margin-title);
 
 
 }
 
 .sitetitle {
-	border-bottom: none;
-	text-align: center;
-	padding: 4px 0;
+    border-bottom: none;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 0;
 }
 
 .sitetagline {
-	border-top: none;
-	text-align: center;
-	padding-bottom: 4px;
+    border-top: none;
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 0;
 }
 
 
 .sitetitle a {
-	color: inherit;
-	width: 100%;
-	height: 100%;
-	text-align: inherit;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    text-align: inherit;
 }
 
 .sitetitle a::before, .sitetitle a::after, a.titlecontinue::before, a.titlecontinue::after {
-	content: none;
+    content: none;
 }
 
 .navbar ul li {
-	display: block;
-	background-color: var(--color-med-low);
-	color: var(--color-light);
-	margin: 3px 0;
-	padding: 2px;
-	border-bottom: 1px solid var(--color-dark);
+    display: block;
+    background-color: var(--color-med-low);
+    color: var(--color-light);
+    margin: 3px 0;
+    padding: 2px;
+    border-bottom: 1px solid var(--color-dark);
 }
 
-	/*
+    /*
 .pagetitle, .pagesubtitle, .postdate, .postpreview .posttitle, .postpreview .byline, .postpreview .date {
-	background-color: var(--color-med-hi);
-	color: var(--color-light);
-	border: 3px double var(--color-med-low);
-	text-shadow: 2px 2px 0px var(--color-med-low)!important;
-	color: var(--color-med-low);
-	border: 3px dotted var(--color-med-low);
-	padding: 3px;
-	padding-left: 9px;
-	--text-border-color: var(--color-med-low);
-	--text-border-width: 1px;
-	text-shadow: 1px  1px var(--text-border-color),
-				-1px -1px var(--text-border-color),
-				 1px -1px var(--text-border-color),
-				-1px  1px var(--text-border-color);
-	white-space: nowrap;
-	overflow: visable;
-	letter-spacing: auto;
+    background-color: var(--color-med-hi);
+    color: var(--color-light);
+    border: 3px double var(--color-med-low);
+    text-shadow: 2px 2px 0px var(--color-med-low)!important;
+    color: var(--color-med-low);
+    border: 3px dotted var(--color-med-low);
+    padding: 3px;
+    padding-left: 9px;
+    --text-border-color: var(--color-med-low);
+    --text-border-width: 1px;
+    text-shadow: 1px  1px var(--text-border-color),
+                -1px -1px var(--text-border-color),
+                 1px -1px var(--text-border-color),
+                -1px  1px var(--text-border-color);
+    white-space: nowrap;
+    overflow: visable;
+    letter-spacing: auto;
 }
-				*/
+                */
 
 .pagetitle, .postpreview .posttitle{
-	border-bottom: none;
-	padding: 6px;
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 6px;
 }
 
 .pagesubtitle, .postpreview .date  {
-	border-top: none;
-	padding: 6px;
+    border-top: none;
+    margin-top: 0px;
+    padding: 6px;
 }
 
 .postdate, .postpreview .date {
-	border-top: none;
-	padding: 6px;
+    border-top: none;
+    margin-top: 0px;
+    padding: 6px;
 }
 
 .postpreview .byline {
-	border-top: none;
-	border-bottom: none;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .pagecontent, .postpreview .preview {
-	border: 3px dotted var(--color-med-low);
-	border-top: none;
-	margin-bottom: 3px;
+    border: 3px dotted var(--color-med-low);
+    border-top: none;
+    margin-bottom: 3px;
 }
 
 .pagecontent p, .pagecontent h2, .pagecontent img {
-	padding: 6px;
+    padding: 6px;
 }
 
 .pagecontent.blogsummary {
-	border: none;
+    border: none;
 }
 
 .postpreview {
-	margin: 9px;
-	padding: 9px;
-	padding-bottom: 18px;
-	border-bottom: 3px double var(--color-dark);
+    margin: 9px;
+    padding: 9px;
+    padding-bottom: 18px;
+    border-bottom: 3px double var(--color-dark);
 }
 
 .postpreview ul li {
-	list-style: none;
+    list-style: none;
 }
 
 .taglist, .tags{
-	display: block;
-	padding: 3px;
-	border-bottom: 1px solid var(--color-dark);
-	margin-top: 3px;
-	background-color: var(--color-med-low);
-	color: var(--color-light);
+    display: block;
+    padding: 3px;
+    border-bottom: 1px solid var(--color-dark);
+    margin-top: 3px;
+    background-color: var(--color-med-low);
+    color: var(--color-light);
 }
 
 .tags {
-	padding: 3px;
+    padding: 3px;
 }
 
 .taglist *, .tags * {
-	display: inline-block;
+    display: inline-block;
 }
 
 .taglist p, .tags p {
-	padding: 0;
+    padding: 0;
 }
 
 .tags::before {
-	content: "Tags: ";
+    content: "Tags: ";
 }
 
 .taglist .tags::before {
-	content: none;
+    content: none;
 }
 
 .taglist p::after, .tags p::after {
-	content: ":";
+    content: ":";
 }
 
 .previouspost, .nextpost {
-	display: inline-block;
+    display: inline-block;
 }
 
 .nextpost {
-	float: right;
-	text-align: right;
+    float: right;
+    text-align: right;
 }
 
 .copyright {
-	text-align: center;
-	padding: 6px;
+    text-align: center;
+    padding: 6px;
+}
+
+.themepicker {
+    display: block;
+}
+
+.themepicker li {
+    display: inline-block;
+    color: var(--color-med-low);
+    background-color: var(--color-light);
+    border: 1px solid var(--color-med-hi);
+    border-bottom: 1px solid var(--color-dark);
+    border-right: 1px solid var(--color-dark);
+    margin: 1px;
+}
+
+@supports(grid-template-areas: "") {
+    body {
+        display: grid;
+        grid-template-columns: repeat(calc(100minw / 9))
+    }
+
+    @media(min-width: 700px) {
+        .sitetitle    { grid-area: stitle; }
+        .sitetagline  { grid-area: stagli; }
+        .navbar       { grid-area: navbar; }
+        .pagetitle    { grid-area: ptitle; }
+        .pagesubtitle { grid-area: psubti; }
+        .pagecontent  { grid-area: pconte; }
+        .copyright    { grid-area: cright; }
+        .themepicker  { grid-area: themep; }
+
+        body {
+            grid-template-areas:
+            "stitle ptitle ptitle"
+            "stagli psubti psubti"
+            "navbar pconte pconte"
+            "cright pconte pconte"
+            "------ pconte pconte"
+            "------ pconte pconte"
+            "------ pconte pconte"
+            "------ pconte pconte"
+            "themep themep themep";
+            --margin-title: 6px;
+
+        }
+
+        .pagecontent {
+            padding: 3px;
+        }
+
+        .sitetagline {
+            margin-bottom: 3px;
+        }
+
+        .navbar {
+            padding-top: 0;
+            border-top: none;
+        }
+
+    }
+
 }
