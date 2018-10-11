@@ -295,7 +295,6 @@ a::after {
 @supports(grid-template-areas: "") {
     body {
         display: grid;
-        grid-template-columns: repeat(calc(100minw / 9))
     }
 
     @media(min-width: 700px) {
@@ -309,16 +308,20 @@ a::after {
         .themepicker  { grid-area: themep; }
 
         body {
+            grid-template-columns: 2fr 5fr;
+            grid-template-rows: repeat(auto-fill, 30px);
             grid-template-areas:
+            "stitle navbar navbar"
             "stitle ptitle ptitle"
             "stagli psubti psubti"
-            "navbar pconte pconte"
+            "stagli pconte pconte"
+            "cright pconte pconte"
             "cright pconte pconte"
             "------ pconte pconte"
             "------ pconte pconte"
             "------ pconte pconte"
-            "------ pconte pconte"
-            "themep themep themep";
+            "themep pconte pconte"
+            ;
             --margin-title: 6px;
 
         }
@@ -334,6 +337,21 @@ a::after {
         .navbar {
             padding-top: 0;
             border-top: none;
+        }
+
+
+        .themepicker li {
+            display: inline-block;
+            width: fit-content;
+        }
+
+        .themepicker li::after {
+            width: 100%;
+        }
+
+        .navlist li {
+            display: inline-block;
+            width: auto;
         }
 
     }
