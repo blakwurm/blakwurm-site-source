@@ -216,13 +216,8 @@ a::after {
     padding: 6px;
 }
 
-.pagecontent {
-    column-width: 300px;
-}
-
 .pagecontent.blogsummary {
     border: none;
-    column-width: none;
 }
 
 .postpreview {
@@ -309,9 +304,9 @@ a::after {
 
     body {
         display: grid;
-        grid-template-columns: 1fr auto auto auto 1fr 100px auto 2fr;
+        grid-template-columns: 1fr auto auto auto 1fr 100px auto 1fr 1fr;
         grid-template-rows: 
-        10vh auto auto 20vh auto auto 20vh auto 50vh auto auto auto auto;
+        10vh auto auto 20vh auto auto 20vh auto 50vh auto auto 3vh minmax(85vh, auto) auto auto auto auto;
     }
 
     .sitetitle {
@@ -326,7 +321,7 @@ a::after {
         grid-column: 4/7;
         grid-row: 5/6;
     }
-    .pagesubtitle {
+    .pagesubtitle, .postdate {
         grid-column: 4/7;
         grid-row: 6/7;
     }
@@ -334,28 +329,68 @@ a::after {
         grid-column: 2/6;
         grid-row: 8/10;
     }
+    .copyright {
+        grid-column: 1/10;
+        grid-row: 16;
+    }
+    .pagecontent {
+        grid-column: 1/10;
+        grid-row: 13/14;
+        border: 3px dotted var(--color-med-low);
+    }
+    body .tags, .taglist {
+        grid-row: 11;
+        grid-column: 1/14;
+    }
+    .previouspost, .nextpost {
+        grid-row: 15
+    }
+    .previouspost {
+        grid-column: 1/2;
+    }
+    .nextpost {
+        grid-column: 9/10;
+    }
+    .themepicker {
+        grid-column: 1/10;
+        grid-row: 17;
+    }
+
+    /*.pagecontent.blogsummary {
+        display: grid;
+        min-width: 100%;
+        grid-auto-columns: fit-content(300px);
+        grid-auto-rows: auto;
+    }*/
     @media (min-width: 800px) {
         .sitetitle, .sitetagline {
             grid-column: 2/4;
         }
-        .pagetitle, .pagesubtitle{
+        .pagetitle, .pagesubtitle, .postdate {
             grid-column: 6/8;
         }
         .navbar {
             grid-column: 3/5;
         }
-    }
-    .copyright {
-        grid-column: 1/9;
-        grid-row: 14;
-    }
-    .pagecontent {
-        grid-column: 1/9;
-        grid-row: 11;
-    }
-    .themepicker {
-        grid-column: 1/9;
-        grid-row: 13;
+        .pagecontent {
+            grid-column: 2/9;
+        }
+        .themepicker {
+            grid-column: 1;
+            grid-row: 13;
+            max-width: min-content;
+            overflow: visible;
+        }
+        .copyright {
+            grid-row: 14;
+        }
+        body .tags, .taglist {
+            grid-column: 3/9;
+        }
+        .nextpost, .previouspost {
+            grid-row: 11;
+        }
+
     }
 
     .pagecontent {
