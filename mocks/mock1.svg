@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="800"
+   viewBox="0 0 4.1666667 8.3333333"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="mock1.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="1"
+     inkscape:cx="254.03531"
+     inkscape:cy="444.86665"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="true">
+    <inkscape:grid
+       opacity="0.1254902"
+       color="#ff3fff"
+       dotted="false"
+       empspacing="10"
+       id="grid3725"
+       type="xygrid"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3717">
+    <linearGradient
+       id="linearGradient980"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop978" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient974"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop972" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient968"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop966" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient962"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop960" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient897"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#55ff55;stop-opacity:1;"
+         offset="0"
+         id="stop895" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata3720">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>@Zaphodious</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-273.20832)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -0.41666667,281.02083 3.7500013,272.68749 H -0.41666667 Z"
+       id="path829"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666681px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="-244.58875"
+       y="131.57939"
+       id="text833"
+       transform="rotate(-61.847757)"><tspan
+         sodipodi:role="line"
+         id="tspan831"
+         x="-244.58875"
+         y="131.57939"
+         style="fill:#ffffff;stroke-width:0.01041667">BlakWurm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666678px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="-245.95218"
+       y="126.11116"
+       id="text833-5"
+       transform="rotate(-63.209715)"><tspan
+         sodipodi:role="line"
+         id="tspan831-6"
+         x="-245.95218"
+         y="126.11116"
+         style="font-size:0.19444443px;fill:#ffffff;stroke-width:0.01041667">We Breathe Entertainment</tspan></text>
+    <path
+       style="fill:#b6b6b6;fill-opacity:1;stroke:none;stroke-width:0.01041667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0.72916533,282.16666 4.16666797,-8.33334 v 8.33334 z"
+       id="path893"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666678px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="-253.87962"
+       y="121.44542"
+       id="text833-4-6"
+       transform="rotate(-64.812821)"><tspan
+         sodipodi:role="line"
+         id="tspan831-3-7"
+         x="-253.87962"
+         y="121.44542"
+         style="fill:#000000;stroke-width:0.01041667">WurmBlog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666678px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="-255.15976"
+       y="114.04096"
+       id="text833-5-6-6"
+       transform="rotate(-66.506586)"><tspan
+         sodipodi:role="line"
+         x="-255.15976"
+         y="114.04096"
+         style="font-size:0.19444443px;fill:#000000;stroke-width:0.01041667"
+         id="tspan889-0">Code and IT and Politics and...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666678px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#676767;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="-248.95818"
+       y="127.10672"
+       id="text833-5-4"
+       transform="rotate(-63.209715)"><tspan
+         sodipodi:role="line"
+         id="tspan831-6-9"
+         x="-248.95818"
+         y="127.10672"
+         style="font-size:0.19444443px;fill:#676767;stroke-width:0.01041667">Home | Blak | Wurm | Wurmblog | Projects</tspan></text>
+  </g>
+</svg>
