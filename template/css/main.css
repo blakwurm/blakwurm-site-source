@@ -229,13 +229,13 @@ a::after {
     body {   
         background-image: url(/img/dragon.svg);
         background-position: top;
-        background-size: contain;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-color: black;
         display: grid;
-        grid-template-columns: 1.3fr repeat(3, 1fr) 1.3fr repeat(3, 1fr) 1.3fr;
+        grid-template-columns: .3fr repeat(3, 1fr) 1.3fr repeat(3, 1fr) 1.3fr;
         grid-template-rows: 
-        4vw 7vw 8vh 35vmax 10vh auto;
+        3vw 7vw 8vh 5vmax 20vmax auto;
         border: none;
         margin: none;
         overflow-x: hidden;
@@ -257,34 +257,37 @@ a::after {
         grid-row: 2;
         text-align: left;
         vertical-align: middle;
-        grid-column: 3/7;
+        grid-column: 2/7;
         background: none;
         --size-factor: 3;
     }
     .sitetagline {
         grid-row: 3;
-        grid-column: 4/9;
+        grid-column: 2/9;
         text-align: left;
+        margin-left: 3vw;
         --size-factor: 1.4;
     }
     .pagetitle, .pagesubtitle, .postdate {
     }
     .pagetitle {
-        grid-column: 2/10;
+        grid-column: 1/10;
         grid-row: 10;
         background: none;
         font-size: 2em;
+        text-align: right;
     }
     .pagesubtitle, .postdate {
-        grid-column: 3/10;
+        grid-column: 1/9;
         grid-row: 11;
         background: none;
+        text-align: right;
     }
     .navbar {
         grid-column: 1/10;
         grid-row: 5;
         width: 100%;
-        text-align: center;
+        text-align: right;
         background: none;
         z-index: 10000;
     }
@@ -298,7 +301,7 @@ a::after {
     .navbar ul li a {
         display: inline-block;
         width: 100%;
-        text-align: center;
+        text-align: right;
     }
     .copyright {
         grid-column: 3/8;
@@ -339,6 +342,13 @@ a::after {
     .themepicker {
         grid-column: 1/10;
         grid-row: 17;
+    }
+    .postpreview {
+        border-style: solid;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
     }
 
 
