@@ -235,7 +235,7 @@ a::after {
         display: grid;
         grid-template-columns: 1.3fr repeat(3, 1fr) 1.3fr repeat(3, 1fr) 1.3fr;
         grid-template-rows: 
-        4vw 7vw 10vh 35vmax 35vh auto;
+        4vw 7vw 8vh 35vmax 10vh auto;
         border: none;
         margin: none;
         overflow-x: hidden;
@@ -292,6 +292,7 @@ a::after {
         background: none;
     }
     .navbar ul li {
+        border: none;
         background: none;
     }
     .navbar ul li a {
