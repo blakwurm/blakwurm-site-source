@@ -1,5 +1,3 @@
-# Alex
+Alex is the technical mind behind BlakWurm Entertainment. He functions as a programming and design specialist.
 
-Code Monkey. IT Wizard. Data Sorcerer.
-
-Blog at [WurmBlog](/wurmblog)
+His blog is [WurmBlog](/wurmblog)
