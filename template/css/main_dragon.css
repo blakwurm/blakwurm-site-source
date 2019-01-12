@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Actor|PT+Mono|Philosopher');
+@import url('https://fontlibrary.org/face/cave-story');
+@import url('https://fontlibrary.org/face/mr-pixel');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    --color-dark: black;
+    --color-med-hi: #ef3a0c;
+    --color-med-low: #9b1a0a;
+    --color-light: #efd8a1;
+    
+    --margin-title: 0px;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-light);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-low);
+}
+
+a::before {
+    content: "< ";
+}
+
+a::after {
+    content: " />";
+}
+
+.sitetitle, .sitetagline, .pagetitle, .pagesubtitle, 
+.postdate  {
+    color: var(--color-light);
+    border: 3px double var(--color-med-low);
+    text-shadow: 2px 2px 0px var(--color-med-low);
+    letter-spacing: 1px;
+    margin: var(--margin-title);
+
+
+}
+
+.postpreview {
+    border: 3px double var(--color-med-low);
+}
+
+.sitetitle {
+    border-bottom: none;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 0;
+}
+
+.sitetagline {
+    border-top: none;
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 0;
+}
+
+
+.sitetitle a {
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    text-align: inherit;
+}
+
+.sitetitle a::before, .sitetitle a::after, a.titlecontinue::before, a.titlecontinue::after {
+    content: none;
+}
+
+.navbar ul li {
+    display: block;
+    background-color: var(--color-med-low);
+    color: var(--color-light);
+    margin: 3px 0;
+    padding: 2px;
+    border-bottom: 1px solid var(--color-dark);
+}
+
+    /*
+.pagetitle, .pagesubtitle, .postdate, .postpreview .posttitle, .postpreview .byline, .postpreview .date {
+    background-color: var(--color-med-hi);
+    color: var(--color-light);
+    border: 3px double var(--color-med-low);
+    text-shadow: 2px 2px 0px var(--color-med-low)!important;
+    color: var(--color-med-low);
+    border: 3px dotted var(--color-med-low);
+    padding: 3px;
+    padding-left: 9px;
+    --text-border-color: var(--color-med-low);
+    --text-border-width: 1px;
+    text-shadow: 1px  1px var(--text-border-color),
+                -1px -1px var(--text-border-color),
+                 1px -1px var(--text-border-color),
+                -1px  1px var(--text-border-color);
+    white-space: nowrap;
+    overflow: visable;
+    letter-spacing: auto;
+}
+                */
+
+.pagetitle, .postpreview .posttitle{
+    margin-bottom: 0px;
+    padding: 6px;
+}
+
+.pagesubtitle, .postpreview .date  {
+    border-top: none;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+.postdate, .postpreview .date {
+    border-top: none;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+.postpreview .byline {
+    border-top: none;
+    border-bottom: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pagecontent, .postpreview .preview {
+    border-top: none;
+    margin-bottom: 3px;
+}
+
+.pagecontent p, .pagecontent h2, .pagecontent img {
+    padding: 6px;
+}
+
+.pagecontent.blogsummary {
+    border: none;
+}
+
+.postpreview {
+    margin: 9px;
+    padding: 9px;
+    padding-bottom: 18px;
+}
+
+.postpreview ul li {
+    list-style: none;
+}
+
+.taglist, .tags{
+    display: block;
+    padding: 3px;
+    border-bottom: 1px solid var(--color-dark);
+    margin-top: 3px;
+    background-color: var(--color-med-low);
+    color: var(--color-light);
+}
+
+.tags {
+    padding: 3px;
+}
+
+.taglist *, .tags * {
+    display: inline-block;
+}
+
+.taglist p, .tags p {
+    padding: 0;
+}
+
+.tags::before {
+    content: "Tags: ";
+}
+
+.taglist .tags::before {
+    content: none;
+}
+
+.taglist p::after, .tags p::after {
+    content: ":";
+}
+
+.previouspost, .nextpost {
+    display: inline-block;
+}
+
+.nextpost {
+    float: right;
+    text-align: right;
+}
+
+.copyright {
+    text-align: center;
+    padding: 6px;
+}
+
+.themepicker {
+    display: block;
+}
+
+@media screen {
+@supports(grid-template-columns: 1fr) {
+  /*.sitetitle    { grid-area: stitle; }
+    .sitetagline  { grid-area: stagli; }
+    .navbar       { grid-area: navbar; }
+    .pagetitle    { grid-area: ptitle; }
+    .pagesubtitle { grid-area: psubti; }
+    .pagecontent  { grid-area: pconte; }
+    .copyright    { grid-area: cright; }
+    .themepicker  { grid-area: themep; }*/
+
+    html {
+        min-width: 90vw;
+    }
+
+    body {   
+        background-image: url(/img/dragon.svg);
+        background-position: top;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-color: black;
+        display: grid;
+        grid-template-columns: .3fr repeat(3, 1fr) 1.3fr repeat(3, 1fr) 1.3fr;
+        grid-template-rows: 
+        3vw 7vw 8vh 5vmax 20vmax auto;
+        border: none;
+        margin: none;
+        overflow-x: hidden;
+    }
+
+    .sitetitle, .sitetagline {
+        background: none;
+        --size-factor: 1;
+        font-size: calc(var(--size-factor) * 2vw);
+        color: black;
+        text-shadow: none;
+    }
+    .sitetitle, .sitetagline, .pagetitle, .pagesubtitle, .postdate {
+        border: none;
+    }
+    .sitetitle, .pagetitle {
+    }
+    .sitetitle {
+        grid-row: 2;
+        text-align: left;
+        vertical-align: middle;
+        grid-column: 2/7;
+        background: none;
+        --size-factor: 3;
+    }
+    .sitetagline {
+        grid-row: 3;
+        grid-column: 2/9;
+        text-align: left;
+        margin-left: 3vw;
+        --size-factor: 1.4;
+    }
+    .pagetitle, .pagesubtitle, .postdate {
+    }
+    .pagetitle {
+        grid-column: 1/10;
+        grid-row: 10;
+        background: none;
+        font-size: 2em;
+        text-align: right;
+    }
+    .pagesubtitle, .postdate {
+        grid-column: 1/9;
+        grid-row: 11;
+        background: none;
+        text-align: right;
+    }
+    .navbar {
+        grid-column: 1/10;
+        grid-row: 5;
+        width: 100%;
+        text-align: right;
+        background: none;
+        z-index: 10000;
+    }
+    .navbar ul {
+        background: none;
+    }
+    .navbar ul li {
+        border: none;
+        background: none;
+    }
+    .navbar ul li a {
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+    .copyright {
+        grid-column: 3/8;
+        grid-row: 17;
+    }
+    .pagecontent {
+        grid-column: 1/10;
+        grid-row: 13/14;
+        /* border: 3px dotted var(--color-med-low); */
+        border: none;
+        max-width: 500px;
+        margin: 0 auto;
+        min-height: 200px;
+    }
+    .pagecontent * {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .pagecontent p {
+        margin: 9px;
+    }
+    body .tags, .taglist {
+        grid-row: 16;
+        grid-column: 1/8;
+        background: none;
+    }
+    .previouspost, .nextpost {
+        grid-row: 15;
+        margin: 5px;
+
+    }
+    .previouspost {
+        grid-column: 1/5;
+    }
+    .nextpost {
+        grid-column: 5/10;
+    }
+    .themepicker {
+        grid-column: 1/10;
+        grid-row: 17;
+    }
+    .postpreview {
+        border-style: solid;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+
+    .pagecontent.blogsummary {
+        display: grid;
+        min-width: 100%;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-auto-rows: auto;
+    }
+}
+
+}
+
+@media print {
+    * {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black!important;
+    }
+
+
+    body {
+    --color-dark: #000000!important;
+    --color-med-hi: #ffffff!important;
+    --color-med-low: #ffffff!important;
+    --color-light: #ffffff!important;
+    border: none;
+    }
+
+    .sitetitle {
+        border: none;
+    }
+
+    .tags {
+        border: none;
+    }
+
+    .themepicker, .navbar, .nextpost, .previouspost {
+        display: none;
+    }
+
+    .pagecontent {
+        column-count: 2;
+    }
+
+    .pagecontent a:after {
+        content: "](" attr(href) ")";
+      }
+
+    .pagecontent a:before {
+        content: "[";
+      }
+
+    .sitetitle {
+        font-size: 9pt;
+        text-align: left;
+    }
+    
+    .sitetagline {
+        display: none;
+    }
+
+}
