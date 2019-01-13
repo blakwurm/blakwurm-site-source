@@ -1,12 +1,17 @@
 body {
     background-color: black;
     max-width: 80ch;
+    --color-text: #fc9500;
+    --color-glow: #fcf000;
 }
 * {
-    color: #fc9500;
-    text-shadow: 0 0 5px #fcf000;
+    color: var(--color-text);
+    text-shadow: 0 0 5px var(--color-glow);
     font-family: 'MeyrinRegular';
     font-weight: bold;
+    margin: 3px;
+    padding: 0;
+    font-size: 18px;
 }
 #maskcanvas {
     position: absolute;
@@ -17,4 +22,53 @@ body {
     width: 100%;
     height: 100%;
     z-index: -10;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 2em;
+    background-color: var(--color-text);
+    color: black;
+    text-shadow: none;
+    box-shadow: 0 0 5px var(--color-glow);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a  {
+    font-size: 1em;
+    color: black;
+    text-shadow: none;
+    text-decoration: none;
+}
+ul {
+
+}
+ul li {
+    margin-left: 1ch;
+    list-style: none;
+}
+a::before, .posttitle::before{
+    content: "> ";
+}
+a {
+    text-decoration: none;
+}
+a::after, .posttitle::after {
+    content: " <";
+}
+a.titlecontinue::before {
+    content:none;
+}
+a.titlecontinue::after {
+    content:none;
+}
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+code {
+    margin: 4ch;
+}
+.tags::before {
+    content:"Tags:";
 }
