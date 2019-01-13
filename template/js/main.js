@@ -12,7 +12,7 @@ function renderCRTeffect() {
     con.fillRect(0,0,100,100)
     con.fillStyle = flickerColors[(fillinx+2)%5]
     if (framecounter%2) {
-        con.fillRect(0, (framecounter%1000)/10, 100, 4+(framecounter%2))
+        con.fillRect(0, (framecounter%500)/5, 100, 4+(framecounter%2))
     }
     framecounter = (framecounter+1)%1500
 }
