@@ -2,7 +2,8 @@ body {
     background-color: black;
     max-width: 80ch;
     --color-text: #fc9500;
-    --color-glow: #fcf000;
+    /* --color-glow: #fcf000; */
+    --color-glow: var(--color-text);
 }
 * {
     color: var(--color-text);

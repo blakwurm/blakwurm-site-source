@@ -1,22 +1,19 @@
 let af;
 const flickerColors = ['#eef1', '#fff1', '#fef1', '#fea1', '#fff1', '#eee1', '#0aa1']
-const textColors = ['#fc9500ff', '#fc9500ff', '#fc9500ff', '#fc9500ff', '#fc9500ff', '#fc9500ff', '#fc9500ff']
-const glowColors = ['#fcf000', '#fcf000', '#fcf000', '#fcf000', '#fcf000', '#fcf000', '#fcf000']
-const framesBetween = 3
+const framesBetween = 15
 let framecounter = 0;
 let c = document.querySelector('#maskcanvas');
 let con = c.getContext('2d');
 let b = document.querySelector('body');
 function renderCRTeffect() {
     con.clearRect(0,0,100,100);
-    let fillinx = (framecounter%((flickerColors.length-1)/framesBetween))/framesBetween
+    let fillinx = Math.floor((framecounter%((flickerColors.length-1)/framesBetween))/framesBetween)
     con.fillStyle = flickerColors[fillinx]
     con.fillRect(0,0,100,100)
-    con.fillStyle = flickerColors[(fillinx+2)%3]
+    con.fillStyle = flickerColors[(fillinx+2)%5]
     if (framecounter%2) {
-        con.fillRect(0, (framecounter%500)/5, 100, 3)
+        con.fillRect(0, (framecounter%1000)/10, 100, 4+(framecounter%2))
     }
-    // b.style.setProperty('--color-text', textColors[fillinx])
     framecounter = (framecounter+1)%1500
 }
 function raf() {
