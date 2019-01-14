@@ -1,5 +1,3 @@
-# Making a teeny-tiny engine
-
 For the past few months, I have been insane.  Demented. Mad!
 
 I've been making a general-purpose game engine for js13k.

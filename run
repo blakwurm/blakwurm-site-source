@@ -1,2 +1,6 @@
 #!/bin/bash
 python3.7 ~/dev/wurmforge/wurmforge/
+cd ~/dev/blakwurm.github.com
+git add .
+git commit -m "auto-commit"
+git push

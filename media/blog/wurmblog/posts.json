@@ -1,17 +1,10 @@
 [
 	{
-		"date": "2018-02-12",
-		"title": "Krieg! Or... Not?",
+		"date": "2019-01-12",
+		"title": "Journey of a thousand keystrokes",
 		"author": "Alex",
-		"source": "kriegpost.md",
-		"tags": ["satire", "politics", "fluff", "ephemeral"]
-	},
-	{
-		"date": "2018-03-23",
-		"title": "My best thing",
-		"author": "Alex",
-		"source": "best_.md",
-		"tags": ["jokes", "programming", "ephemeral"]
+		"source": "pokit/journey_of_a.md",
+		"tags": ["programming", "pokit", "javascript"]
 	}
 
 ]
